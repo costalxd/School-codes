@@ -1,6 +1,6 @@
 start=800000
 count=1
-for ch in range(start, 1, -1):
+for ch in range(start+1, 1, -1):
     for i in range(2, 1000):
         if ch%i==0:
             M=(ch//i)-i
