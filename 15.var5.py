@@ -9,3 +9,4 @@ for a1 in range(1,101):
         if f==True:
             s.append(a2-a1)
 print(min(s))
+#isnt working
