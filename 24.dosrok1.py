@@ -15,4 +15,4 @@ for i in f:
     maxdl=max(maxdl, len(i))
     if len(i)==542:
         print(i)
-print(maxdl+2)
+print(maxdl+2) #ПРОВЕРИТЬ ФАЙЛ ОБЯЗАТЕЛЬНО НАДО
