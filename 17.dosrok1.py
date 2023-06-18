@@ -15,7 +15,3 @@ for i in range(len(A)-1):
         count+=1
         minsum=min(minsum, (A[i]+A[i+1]))
 print(count, minsum)
-
-
-
-
