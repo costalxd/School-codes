@@ -3,7 +3,6 @@ f=open("17var13.txt")
 for s in f:
     A.append(int(s))
 f.close()
-
 count=0
 m=-10000
 for i in range(len(A)-1):
@@ -12,4 +11,3 @@ for i in range(len(A)-1):
         summ=A[i]*A[i+1]
         m=max(m, summ)
 print(count,m)
-

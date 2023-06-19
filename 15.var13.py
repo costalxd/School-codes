@@ -7,4 +7,3 @@ for A in range(0,1000):
                 break
     if f==0:
         print(A)
-

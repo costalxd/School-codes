@@ -3,7 +3,6 @@ f=open("17_7596.txt")
 for s in f:
     A.append(int(s))
 f.close()
-
 count=0
 mintr=100000
 for j in range(len(A)):
